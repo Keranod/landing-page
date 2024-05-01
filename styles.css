@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .hero-banner {
@@ -17,7 +17,11 @@
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0;
+}
 
+.awesome-website-secondary-text {
+    margin-top: 0;
 }
 
 .awesome-website-and-picture {
@@ -27,10 +31,14 @@
 }
 
 button {
+    all: unset;
+    text-align: center;
     background-color: #3882F6;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
 }
-
-
 
 
 
@@ -74,6 +82,7 @@ button {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
+    padding: 50px 0 50px 0;
 }
 .quote {
     display: inline-flex;
